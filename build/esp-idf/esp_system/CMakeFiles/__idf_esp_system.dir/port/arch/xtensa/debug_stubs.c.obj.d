@@ -1,0 +1,25 @@
+esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj: \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/xtensa/include/eri.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0/include/stdint.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_default_types.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/features.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/xtensa/include/xtensa-debug-module.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/log/include/esp_log.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0/include/stdarg.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/inttypes.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/newlib.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0/include/stddef.h \
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_locale.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/build/config/sdkconfig.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/log/include/esp_log_internal.h

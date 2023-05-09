@@ -1,0 +1,3 @@
+fatal: no submodule mapping found in .gitmodules for path 'ESP32Balancing/ESP32_Node'
+Compiler supported targets: xtensa-esp32-elf
+

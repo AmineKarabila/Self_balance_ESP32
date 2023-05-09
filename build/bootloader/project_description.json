@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/build/bootloader",
+    "config_file":        "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.2-dev-351-gd341e2c8e2-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/efuse/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_common/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_hw_support/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_system/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/freertos/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/hal/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/log/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/newlib/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/soc/Kconfig;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader/Kconfig.projbuild;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader_support", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/efuse", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_app_format", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_common", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_hw_support", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_system", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esptool_py", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/freertos", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/hal", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/log", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader/subproject/main", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/newlib", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/partition_table", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/soc", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/spi_flash", "/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

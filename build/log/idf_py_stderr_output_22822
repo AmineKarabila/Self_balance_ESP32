@@ -1,0 +1,14 @@
+fatal: no submodule mapping found in .gitmodules for path 'ESP32Balancing/ESP32_Node'
+Compiler supported targets: xtensa-esp32-elf
+
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c: In function 'xReadADXL':
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:136:23: error: format '%d' expects argument of type 'int', but argument 2 has type 'time_t' {aka 'long long int'} [-Werror=format=]
+  136 |         printf("took %d us\n", (stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec);
+      |                      ~^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |                                                              |
+      |                       int                                                            time_t {aka long long int}
+      |                      %lld
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/ADXL345.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2
