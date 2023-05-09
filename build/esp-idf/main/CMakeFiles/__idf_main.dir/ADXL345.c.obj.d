@@ -125,4 +125,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ADXL345.c.obj: \
  /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/time.h \
  /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/signal.h \
  /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/signal.h \
- /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_time.h
+ /Users/aminekarabila/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_time.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/driver/ledc/include/driver/ledc.h \
+ /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/hal/include/hal/ledc_types.h

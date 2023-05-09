@@ -589,6 +589,8 @@ _Python3_EXECUTABLE:INTERNAL=/Users/aminekarabila/.espressif/python_env/idf5.2_p
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;3;32;;;abi3;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11;/Users/aminekarabila/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages;/Users/aminekarabila/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=37ba5c2fe563fbc2de32f59d56700a3a
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

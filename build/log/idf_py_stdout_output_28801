@@ -1,0 +1,129 @@
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/sdkconfig
+-- App "ADXL345" version: 78dc7bb-dirty
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/app_trace /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/app_update /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bootloader_support /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/bt /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/cmock /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/console /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/cxx /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/driver /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/efuse /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp-tls /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_adc /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_app_format /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_coex /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_common /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_eth /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_event /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_gdbstub /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_hid /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_http_client /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_http_server /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_https_ota /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_https_server /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_hw_support /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_lcd /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_local_ctrl /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_mm /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_netif /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_netif_stack /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_partition /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_phy /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_pm /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_psram /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_ringbuf /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_rom /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_system /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_timer /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esp_wifi /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/espcoredump /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/esptool_py /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/fatfs /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/freertos /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/hal /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/heap /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/http_parser /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/idf_test /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/ieee802154 /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/json /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/log /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/lwip /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/mbedtls /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/mqtt /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/newlib /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/nvs_flash /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/openthread /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/partition_table /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/perfmon /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/protobuf-c /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/protocomm /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/pthread /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/sdmmc /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/soc /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/spi_flash /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/spiffs /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/tcp_transport /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/ulp /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/unity /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/usb /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/vfs /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/wear_levelling /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/wifi_provisioning /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/wpa_supplicant /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/components/xtensa
+-- Configuring done (2.2s)
+-- Generating done (0.8s)
+-- Build files have been written to: /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/build
+[  0%] Built target _project_elf_src
+[  0%] Built target custom_bundle
+[  0%] Built target partition_table_bin
+[  0%] Built target memory_ld
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  1%] Built target _project_elf_src
+[  4%] Built target __idf_log
+[  2%] Built target __idf_esp_http_client
+[ 11%] Built target __idf_esp_rom
+[ 13%] Built target __idf_esp_common
+[  3%] Built target __idf_tcp_transport
+[ 22%] Built target __idf_esp_hw_support
+[  4%] Built target __idf_esp_gdbstub
+[ 24%] Built target __idf_esp_system
+[  5%] Built target __idf_esp_eth
+[ 31%] Built target __idf_efuse
+[  6%] Built target __idf_esp_adc
+[ 54%] Built target __idf_bootloader_support
+[  7%] Built target __idf_esp-tls
+[ 56%] Built target __idf_esp_app_format
+[  7%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  8%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  8%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 90%] Built target __idf_soc
+[ 93%] Built target __idf_xtensa
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_project_binary
+[ 18%] Built target __idf_wpa_supplicant
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[100%] Built target bootloader_check_size
+[ 19%] Built target __idf_esp_netif
+[100%] Built target app
+[ 20%] No install step for 'bootloader'
+[ 20%] Completed 'bootloader'
+[ 20%] Built target bootloader
+[ 30%] Built target __idf_lwip
+[ 31%] Built target __idf_vfs
+[ 32%] Built target __idf_esp_phy
+[ 33%] Built target __idf_nvs_flash
+[ 33%] Built target __idf_esp_event
+[ 34%] Built target __idf_esp_timer
+[ 35%] Built target __idf_esp_common
+[ 35%] Built target __idf_cxx
+[ 37%] Built target __idf_newlib
+[ 39%] Built target __idf_freertos
+[ 43%] Built target __idf_esp_hw_support
+[ 46%] Built target __idf_soc
+[ 47%] Built target __idf_heap
+[ 48%] Built target __idf_log
+[ 53%] Built target __idf_hal
+[ 53%] Built target __idf_esp_rom
+[ 57%] Built target __idf_esp_system
+[ 58%] Built target __idf_pthread
+[ 60%] Built target __idf_spi_flash
+[ 61%] Built target __idf_esp_mm
+[ 62%] Built target __idf_app_update
+[ 62%] Built target __idf_esp_partition
+[ 64%] Built target __idf_bootloader_support
+[ 64%] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[ 64%] Linking C static library libesp_app_format.a
+[ 64%] Built target __idf_esp_app_format
+[ 66%] Built target mbedtls
+[ 67%] Built target mbedx509
+[ 78%] Built target mbedcrypto
+[ 78%] Built target __idf_mbedtls
+[ 78%] Built target __idf_esp_pm
+[ 84%] Built target __idf_driver
+[ 85%] Built target __idf_efuse
+[ 86%] Built target __idf_esp_ringbuf
+[ 87%] Built target __idf_xtensa
+[ 87%] Built target __idf_protobuf-c
+[ 87%] Built target __idf_json
+[ 87%] Built target __idf_esp_hid
+[ 88%] Built target __idf_sdmmc
+[ 88%] Built target __idf_app_trace
+[ 88%] Built target __idf_unity
+[ 90%] Built target __idf_console
+[ 91%] Built target __idf_wear_levelling
+[ 92%] Built target __idf_espcoredump
+[ 93%] Built target __idf_esp_lcd
+[ 94%] Built target __idf_perfmon
+[ 95%] Built target __idf_mqtt
+[ 96%] Built target __idf_spiffs
+[ 96%] Built target __idf_cmock
+[ 97%] Built target __idf_protocomm
+[ 98%] Built target __idf_fatfs
+[ 98%] Built target __idf_esp_local_ctrl
+[100%] Built target __idf_wifi_provisioning
+[100%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ADXL345.c.obj
+[100%] Linking C static library libmain.a
+[100%] Built target __idf_main
+[100%] Generating ld/sections.ld
+[100%] Built target __ldgen_output_sections.ld
+[100%] Building C object CMakeFiles/ADXL345.elf.dir/project_elf_src_esp32.c.obj
+[100%] Linking CXX executable ADXL345.elf
+[100%] Built target ADXL345.elf
+[100%] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/build/ADXL345.bin
+[100%] Built target gen_project_binary
+ADXL345.bin binary size 0x30060 bytes. Smallest app partition is 0x100000 bytes. 0xcffa0 bytes (81%) free.
+[100%] Built target app_check_size
+[100%] Built target app

@@ -1,0 +1,23 @@
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c: In function 'app_main':
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:55:33: error: called object is not a function or function pointer
+   55 | #define LEDC_DUTY               (4095) // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095
+      |                                 ^
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:199:5: note: in expansion of macro 'LEDC_DUTY'
+  199 |     LEDC_DUTY (6000);
+      |     ^~~~~~~~~
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:55:33: error: called object is not a function or function pointer
+   55 | #define LEDC_DUTY               (4095) // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095
+      |                                 ^
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:209:5: note: in expansion of macro 'LEDC_DUTY'
+  209 |     LEDC_DUTY (2000);
+      |     ^~~~~~~~~
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c: At top level:
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:112:13: warning: 'initADXL' defined but not used [-Wunused-function]
+  112 | static void initADXL(uint8_t range, uint8_t rate)
+      |             ^~~~~~~~
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:70:18: warning: 'i2c_master_init' defined but not used [-Wunused-function]
+   70 | static esp_err_t i2c_master_init()
+      |                  ^~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/ADXL345.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

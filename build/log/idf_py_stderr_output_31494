@@ -1,0 +1,6 @@
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:112:13: warning: 'initADXL' defined but not used [-Wunused-function]
+  112 | static void initADXL(uint8_t range, uint8_t rate)
+      |             ^~~~~~~~
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:70:18: warning: 'i2c_master_init' defined but not used [-Wunused-function]
+   70 | static esp_err_t i2c_master_init()
+      |                  ^~~~~~~~~~~~~~~

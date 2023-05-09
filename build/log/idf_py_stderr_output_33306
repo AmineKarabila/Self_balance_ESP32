@@ -1,0 +1,13 @@
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c: In function 'app_main':
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:195:38: error: expected ';' before 'do'
+  195 |     printf("duty --> %i" , LEDC_DUTY)
+      |                                      ^
+      |                                      ;
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c: At top level:
+/Users/aminekarabila/Desktop/ESP32Coding/esp-idf/ADXL345/Self_balance_ESP32/main/ADXL345.c:70:18: warning: 'i2c_master_init' defined but not used [-Wunused-function]
+   70 | static esp_err_t i2c_master_init()
+      |                  ^~~~~~~~~~~~~~~
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/ADXL345.c.obj] Error 1
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/flash.dir/rule] Error 2
+make: *** [flash] Error 2
