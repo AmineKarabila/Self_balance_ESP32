@@ -1,8 +1,8 @@
-# Self_balance_ESP32
-A module consisting of one:
+# Self_balance_ESP32<br />
+A module consisting of one:<br />
 
 -> ESP32 (microcontroller)<br />
--> ADXL345 (position sensor)<br />,
+-> ADXL345 (position sensor)<br />
 -> 775 motor<br />
 -> BTS7960 motor driver<br />
 -> 24V power plug <br />
